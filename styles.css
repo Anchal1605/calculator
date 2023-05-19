@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.text-center{
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width:20%;
+    margin: auto;
+    padding: 0;
+    border:solid black 2px;
+    padding:20px 0;
+    background-color:whitesmoke;
+    border-radius: 5px;
+}
+
+.input {
+    background-color: #F3CCFF;
+}
+
+.btn {
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    margin: 0 3px;
+    border: 2px solid black;
+    border-radius: 9px;
+    cursor: pointer;
+    background-color: #DBDFFD;
+}
+
+.row{
+    margin: 8px 0;
+  }
+  .row input{
+    width: 190px;
+    font-size: 20px;
+      margin: 0;
+      padding: 10px 0px;
+      border: 2px solid black;
+      border-radius: 5px;
+  }
+.operator {
+    background-color: #D09CFA;
+}
+
+.equals {
+    background-color: #A555EC;
+}
